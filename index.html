@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    
+    <body>
+        <script>
+            var cont = 1
+            function contador(){
+              let label = document.querySelector("label")
+
+              label.innerText = "Contador: " + cont++
+            }
+        </script>
+        <button onclick="contador()">
+            Clique aqui
+        </button>
+            <label>
+                Contador: 0
+            </label>
+
+    </body>
+</html>
